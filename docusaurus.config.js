@@ -32,6 +32,8 @@ const config = {
     locales: ['en'],
   },
 
+  plugins: [require.resolve("docusaurus-plugin-image-zoom")],
+
   presets: [
     [
       'classic',
@@ -74,7 +76,12 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Themes',
+            label: 'Thèmes',
+          },
+          {
+            href: 'https://kubernetes.io/',
+            label: 'Documentation Kube',
+            position: 'left',
           },
           {
             href: 'https://github.com/damienjacinto/avanced-kubernetes',
@@ -88,6 +95,16 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      zoom: {
+        selector: '.markdown :not(em) > img',
+        config: {
+          // options you can specify via https://github.com/francoischalifour/medium-zoom#usage
+          background: {
+            light: 'rgb(255, 255, 255)',
+            dark: 'rgb(50, 50, 50)'
+          }
+        }
+      }
     }),
 };
 
