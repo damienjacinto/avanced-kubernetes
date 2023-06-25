@@ -1,0 +1,8 @@
+{
+  "label": "CRD - Operators",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Une des forces de Kubernetes est la possibilité d'étendre son fonctionnement. L'utilisation de CRD et d'opérateurs est un élément incontournable actuellement et dans le future."
+  }
+}

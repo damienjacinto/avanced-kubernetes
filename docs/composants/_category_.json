@@ -1,0 +1,8 @@
+{
+  "label": "Composants",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Cette section est un rappel sur le fonctionnement d'un cluster kubernetes et les éléments qui le compose. On abordera les standards qui régissent le fonctionnement du cluster et les éléments qui opèrent l'orchestration des containeurs."
+  }
+}
