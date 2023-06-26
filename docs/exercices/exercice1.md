@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Exercices
 
-Construire un cluster kubernetes avec 1 seul master et 2 nodes.
+Construire un cluster kubernetes avec 1 seul master et 1 ou 2 nodes.
 
 ## Master
 
