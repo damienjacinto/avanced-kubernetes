@@ -25,4 +25,4 @@ Controlleur principal du cluster qui gère les ressources standards (nodes, endp
 
 ## static pod
 
-Il est possible de déployer des pods dans le cluster sans passer par l'api. En effet un paramètre permet de spécifier un dossier qui sera chargé avec le démarrage du cluster. Les manifestes des pods placé dans ce dossier seront démarrés avec le cluster, leur nom est suffixé du nom de la node. C'est souvent la manière d'installer des composants en mode "bootstrap" comme etcd, le kune proxy au sein d'un cluster.
+Il est possible de déployer des pods dans le cluster sans passer par l'api. En effet un paramètre permet de spécifier un dossier qui sera chargé avec le démarrage du cluster. Les manifestes des pods placés dans ce dossier seront démarrés avec le cluster, leur nom est suffixé du nom de la node. C'est souvent la manière d'installer des composants en mode "bootstrap" comme etcd ou le kube proxy au sein d'un cluster.

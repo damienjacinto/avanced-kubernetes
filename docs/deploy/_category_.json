@@ -1,0 +1,8 @@
+{
+  "label": "Deploiements",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Deploiement stateless ou statefull et révision des types de services"
+  }
+}
